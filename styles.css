@@ -1036,7 +1036,7 @@ time {
     }  
 
     body h1 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
     body h2 {
         font-size: 1.8rem;
@@ -1052,7 +1052,7 @@ time {
     }
     .text-box {
         margin-top: 22vh;
-        width: 40% ;
+        width: 50% ;
     }
 
     .main-back-img-phone { 
@@ -1122,13 +1122,13 @@ time {
 @media screen and (max-width: 500px) {
     .text-box {
         margin-top: 22vh;
-        width: 60%;
+        width: 80%;
     }
     .text-box p {
         font-size: 1.6;
     }
     body h1 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
     body h2 {
         font-size: 1.6rem;
