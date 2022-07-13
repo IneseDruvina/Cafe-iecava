@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upene test website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <section class="section main-page" id="main-page">
+        <div class="nav-bar-cont">
+            <nav class="nav-bar">       
+                <div class="logo">
+                    <a href="index.html"><img src="images/0logo/logo3.png" width="200" height="200" alt="Logo"></a>
+                </div>        
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul class="controlls">
+                            <li class="control control-active-btn" data-id="header"><a href="#main-page">Sākums</a></li>
+                            <li class="control" data-id="header"><a href="#about">Par kafejnīcu</a></li>                          
+                            <li class="control" data-id="reserv-section"><a href="#reservations">Rezervācijas</a></li>
+                            <li class="control" data-id="spec-section"><a href="#specials">Pasūtījumi</a></li>
+                            <li class="control" data-id="news-section"><a href="#news">Aktuāli</a></li>
+                            <li class="control" data-id="contacts"><a href="#contacts">Kontakti</a></li>
+                            <li class="control" data-id="menu"><a href="menu/index.html">Ēdienkarte</a></li>
+                        </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>
+
+        <div class="main-page-content" id="main-page-conent">
+            <div class="main-img-box">
+                <img src="images/1firstpage/durvisphone.jpg" width="1000" height="1500">                                                        
+            </div>
+            <div class="main-img-box-phone">
+                <img src="images/1firstpage/durvisphone.jpg" width="1000" height="1500">                                                        
+            </div>
+            <div class="text-box text-box-trans">
+                <h1>Upene</h1>
+                <div class="text-box-text text-box-trans">
+                    <p class="animate-charter">
+                        <span>Mājīga </span>
+                        <span>kafejnīca </span>
+                        <span>parkā</span>
+                    </p>
+                </div> 
+            </div>             
+        </div>
+        
+    </section>
+
+    <!---Par Upeni-->
+    <section class="section about " id="about">       
+        <div class="section-head reveal">
+            <h2>PAR KAFEJNĪCU</h2>
+            <p>Teks par Upeni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius rerum 
+                praesentium totam, dolorum, ipsa possimus libero laudantium odit ut nam similique 
+                provident soluta! Amet provident sapiente tempore quas quaerat omnis! <br>
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde ipsa
+                ad quae ullam facere eveniet corporis maiores officia eligendi minus
+                porro, doloremque quisquam, tenetur modi nobis libero voluptatibus
+                error?
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="background" id="backgr1">
+            <div class="background-img"></div>      
+        </div>
+    </section>
+
+<!---Par Ēdienu-->
+    <section class="section food reveal" id="food">
+        <div class="section-head ">
+            <h2>PAR ĒDIENU</h2>
+            <p>Teks par ēdienu. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius rerum 
+                praesentium totam, dolorum, ipsa possimus libero laudantium odit ut nam similique 
+                provident soluta! Amet provident sapiente tempore quas quaerat omnis! 
+            </p>
+        </div>
+        <div class="food-img-box">
+            <img src="images/2about/one.png" width="800" height="600">                                                        
+        </div>
+        <div class="food-row">
+            <div class="food-cont img-comp-container anim-cont border spec-snaps animated" id="food-row-img-one">
+                <img src="images/2about/food3.jpg" width="500" height="500" id="food-row-img-one">
+            </div>
+            <div class="food-cont img-comp-container anim-cont border spec-snaps animated" id="food-row-img-two">
+                <img src="images/2about/food5.jpg" width="500" height="500">
+            </div>
+            <div class="food-cont img-comp-container anim-cont border spec-snaps animated" id="food-row-img-three">
+                <img src="images/2about/food4.jpg" width="500" height="500">
+            </div>
+            <div class="food-cont img-comp-container anim-cont border spec-snaps animated" id="food-row-img-four">
+                <img src="images/2about/mainimg4.jpg" width="500" height="500">
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="background" id="backgr2">
+            <div class="background-img"></div>      
+        </div>
+    </section>
+
+    <!---Rezervācijas-->
+    <section class="section reservations reveal" id="reservations">
+        <div class="section-head reserv-head" id="reserv-section">
+            <h2>REZERVĀCIJAS</h2>
+            <p>Ko un kā var rezervēt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius rerum 
+                praesentium totam, dolorum, ipsa possimus libero laudantium odit ut nam similique 
+                provident soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quaerat incidunt ea labore voluptate impedit veniam excepturi obcaecati reprehenderit, 
+                nisi corporis eum expedita asperiores necessitatibus natus corrupti, quibusdam voluptatibus! 
+                Harum, soluta!
+            </p>
+        </div>
+
+        <div class="reserv-back-cont">
+            <div class="reserv-back-col border">
+                <img src="images/3reservations/reservimg.jpg" alt="iii" width="500" height="500">
+            </div>  
+            <div class="reserv-back-col border">
+                <img src="images/3reservations/reservimg1.jpg" alt="iii" width="500" height="500">
+            </div>
+        </div>
+        <div class="reserv-img-box">
+            <img src="images/1firstpage/mainimage1.jpg" width="800" height="600">                                                        
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="background" id="backgr3">
+            <div class="background-img"></div>      
+        </div>
+    </section>
+
+    <!---Pasūtījumi-->
+    <section class="section sepecials reveal" id="specials">  
+        <div class="specials-img-col">
+            <div class="section-head spec-head" id="spec-section">
+                <h2>PASŪTĪJUMI</h2>
+                <p>Ko un kā var pasūtīt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius rerum 
+                    praesentium totam, dolorum, ipsa possimus libero laudantium odit ut nam similique 
+                    provident soluta! 
+                </p>
+            </div>
+            <div class="spec-bottom">Galerija</div>
+
+            <div class="specials-img-row spec-snaps horizont-scroll">           
+                <div class="spec-col-img snacks-image hover01" id="spec-col-img-2">
+                    <figure><img src="images/4specials/snacks/snacks2.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-18">
+                    <figure><img src="images/4specials/cakes/cakeimage11.jpg" width="500" height="500"></figure>
+                </div>                             
+                <div class="spec-col-img presents-image hover01" id="spec-col-img-5">
+                    <figure><img src="images/4specials/presents/presentsimage1.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img snacks-image hover01" id="spec-col-img-3">
+                    <figure><img src="images/4specials/snacks/snacks6.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img snacks-image hover01" id="spec-col-img-4">
+                    <figure><img src="images/4specials/snacks/snacks3.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-8">
+                    <figure><img src="images/4specials/cakes/cakeimage1.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img snacks-image hover01" id="spec-col-img-1">
+                    <figure><img src="images/4specials/snacks/snacks5.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img presents-image hover01" id="spec-col-img-7">
+                    <figure><img src="images/4specials/presents/presentsimage4.jpg" width="500" height="500"></figure>
+                </div>                             
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-17">
+                    <figure><img src="images/4specials/cakes/cakeimage10.jpg" width="500" height="500"></figure>
+                </div>                
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-13">
+                    <figure><img src="images/4specials/cakes/cakeimage6.jpg" width="500" height="500"></figure>
+                </div> 
+                <div class="spec-col-img snacks-image hover01" id="spec-col-img-5">
+                    <figure><img src="images/4specials/snacks/snacks1.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-20">
+                    <figure><img src="images/4specials/cakes/cakeimage13.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img snacks-image hover01" id="spec-col-img-6">
+                    <figure><img src="images/4specials/snacks/snacks4.jpg" width="500" height="500"></figure>
+                </div>                            
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-9">
+                    <figure><img src="images/4specials/cakes/cakeimage2.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img presents-image hover01" id="spec-col-img-6">
+                    <figure><img src="images/4specials/presents/presentsimage2.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-10">
+                    <figure><img src="images/4specials/cakes/cakeimage3.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-11">
+                    <figure><img src="images/4specials/cakes/cakeimage4.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-12">
+                    <figure><img src="images/4specials/cakes/cakeimage5.jpg" width="500" height="500"></figure>
+                </div>              
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-14">
+                    <figure><img src="images/4specials/cakes/cakeimage7.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img presents-image hover01" id="spec-col-img-7">
+                    <figure><img src="images/4specials/presents/presentsimage3.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-15">
+                    <figure><img src="images/4specials/cakes/cakeimage8.jpg" width="500" height="500"></figure>
+                </div>
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-16">
+                    <figure><img src="images/4specials/cakes/cakeimage9.jpg" width="500" height="500"></figure>
+                </div>              
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-19">
+                    <figure><img src="images/4specials/cakes/cakeimage12.jpg" width="500" height="500"></figure>
+                </div>                
+                <div class="spec-col-img cakes-image hover01" id="spec-col-img-21">
+                    <figure><img src="images/4specials/cakes/cakeimage14.jpg" width="500" height="500"></figure>
+                </div>             
+                <div class="spec-col-img presents-image hover01" id="spec-col-img-7">
+                    <figure><img src="images/4specials/presents/presentsimage5.jpg" width="500" height="500"></figure>
+                </div> 
+            </div>
+        </div>            
+    </section>
+
+    <!---Aktualitātes-->
+
+    <section class="section news reveal" id="news">
+        <div class="news-col">
+
+            <div class="section-head news-head" id="news-section">
+                <h2>Aktuāli</h2>
+            </div>
+
+            <div class="news-row-cont">
+                <div class="news-row-col border" id="news-row-col-one">
+                    <img src="images/5events/eventsimage2.jpg" alt="iii" width="500" height="500">
+                </div>  
+                <div class="news-row-col">                  
+                    <a href="index.html">Virsraksts  <br></a>
+                    <time>Datums, laiks</time>   
+                    <div class="news-row-text">
+                        <p><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos tempore sit quas sequi
+                        eaque. Eveniet ullam quaerat deleniti voluptatem asperiores? Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequatur aut, voluptatum esse numquam ratione, sit repellendus ex eveniet
+                        dolores facilis distinctio iure nihil id velit recusandae adipisci quisquam
+                        delectus ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequatur aut, voluptatum esse numquam ratione, sit repellendus ex eveniet
+                        dolores facilis distinctio iure nihil id velit recusandae adipisci quisquam
+                        delectus ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequatur aut, voluptatum esse numquam ratione, sit repellendus ex eveniet
+                        dolores facilis distinctio iure nihil id velit recusandae adipisci quisquam
+                        delectus ducimus.
+                        </p>
+                    </div>                            
+                    <hr style="height:1px;border-width:0;color:gray;">
+                    <div class="news-text-link">
+                        <a href="index.html">Lasīt rakstu...</a>
+                    </div>                                          
+                </div>                           
+            </div>
+
+            <div class="news-col-cont"> 
+                <div class="news-col-col">  
+                    <div class="news-col-img border">
+                        <img src="images/5events/eventsimage1.jpg" alt="iii" width="500" height="500">
+                    </div>
+                    <div class="news-col-text news-text">
+                        <a href="index.html">Virsraksts  <br></a>
+                        <time>Datums, laiks</time>
+                        <p><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Eos tempore sit quas sequi eaque. 
+                            Eveniet ullam quaerat deleniti voluptatem asperiores?
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Eos tempore sit quas sequi eaque. 
+                        </p>
+                    </div>  
+                    <hr style="height:1px;border-width:0;color:gray;">  
+                    <div class="news-text-link">
+                        <a href="index.html">Lasīt rakstu...</a>
+                    </div>                  
+                </div>
+                <div class="news-col-col">
+                    <div class="news-col-img border">
+                      <img src="images/5events/eventsimage6.jpg" alt="iii" width="500" height="500">
+                    </div>
+                    <div class="news-col-text news-text">
+                        <a href="index.html">Virsraksts <br></a>
+                        <time>Datums, laiks</time>
+                        <p><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Eos tempore sit quas sequi eaque. 
+                             Eveniet ullam quaerat deleniti voluptatem asperiores?
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Officia sequi cum veritatis quidem expedita temporibus, 
+                             ab blanditiis iusto maiores, nostrum odio non, voluptas
+                              mollitia quo alias possimus aut accusamus aliquid?
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                             Natus rerum error labore eveniet dolores soluta id 
+                             assumenda tempora aspernatur consequatur asperiores,
+                            omnis temporibus quis laboriosam doloribus earum quibusdam,
+                            similique quia!</p>
+                    </div> 
+                    <hr style="height:1px;border-width:0;color:gray;">
+                    <div class="news-text-link">
+                        <a href="index.html">Lasīt rakstu...</a>
+                    </div>                                       
+                </div>
+
+                <div class="news-col-col">
+                    <div class="news-col-img border">
+                        <img src="images/5events/eventsimage3.jpg" alt="iii" width="500" height="500">
+                    </div>
+                    <div class="news-col-text news-text">
+                        <a href="index.html">Virsraksts <br></a>
+                        <time>Datums, laiks</time>
+                        <p><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos tempore sit quas sequi eaque. Eveniet ullam quaerat deleniti voluptatem asperiores?</p>
+                    </div>  
+                    <hr style="height:1px;border-width:0;color:gray;"> 
+                    <div class="news-text-link">
+                        <a href="index.html">Lasīt rakstu...</a>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contacts reveal" id="contacts">
+        <h3>Mēs atrodamies: Upes iela 9, Iecava, Iecava pilsēta, LV-3913</h3><br>
+        <h4>Sazinies ar mums par galdiņu rezervēšanu <br> vai īpašajiem piedāvājumiem: Tālrunis: 22222222</h4>  
+        <a href="" class="call-btn">Zvanīt</a> <br>
+        <p> <br> E-pasts: upene@gmail.com </p><br>
+        <div class="contact-icons">
+            <div class="contact-icon">
+                <a href="www.facebook.com" target="blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <div class="contact-icon">
+                <a href="www.facebook.com" target="blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+
+        </div>    
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
