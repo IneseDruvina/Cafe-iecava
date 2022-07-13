@@ -60,6 +60,7 @@ body h2 {
 .menu-price {
     float: right;
     font-size: 1.2rem;
+    font-family: 'Glory', sans-serif;
     color: var(--black);
     text-shadow: 1px 0px 0 white, 2px 1px 2px var(--light-violet);
 }
