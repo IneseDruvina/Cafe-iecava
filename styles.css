@@ -721,7 +721,7 @@ background: #616f61;
 .news-text a, .news-row-col a  {
     font-size: 1.6rem;
     color: var(--dark);
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
 }
 time {
