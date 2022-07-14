@@ -1187,3 +1187,9 @@ time {
         font-size: 1.2rem;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    ::i-block-chrome, .background {
+	background-attachment: scroll !important;
+    }
+}
