@@ -1,4 +1,5 @@
 
+
 /*-----Ēdienkarte-------*/
 * {
     box-sizing: border-box;
@@ -42,6 +43,64 @@ body h2 {
     font-weight: 500;
     text-shadow: 1px 0px 0 white, 2px 1px 2px var(--light-violet);
 }
+    /*nav-bar styling*/
+
+    .nav-bar {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .controlls {
+        display: block;
+    }
+    .controlls {
+        padding: 0 50px;
+    }
+    .nav-links ul li {
+        display: block;
+        padding: 40px 5px 0;
+    }
+    .nav-links ul li a {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .nav-links {
+        position: absolute;
+        background:white;
+        height: 100vh;
+        width: 250px;
+        top: 0;
+        right: -250px;
+        text-align: left;
+        transition: 1s;
+        z-index: 2;
+    }
+    .nav-bar .fa  {
+        display: block;
+        color:var(--black);
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #btn-back-home {
+        margin-left: 13%;
+        font-size: 30px;
+        z-index: 1;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    #btn-nav-bar {
+        margin-right: 13%;
+        font-size: 30px;
+        background-color: transparent;
+    }
+    .myBtnContainer a {
+        font-size: .9rem;
+        text-shadow: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: rgb(14, 14, 85);
+    }
+
+/*menu styling*/
 .clearfix a {
     font-size: 1.2rem;
     text-decoration: none;
@@ -59,8 +118,8 @@ body h2 {
 }
 .menu-price {
     float: right;
-    font-size: 1.2rem;
     font-family: 'Glory', sans-serif;
+    font-size: 1.2rem;
     color: var(--black);
     text-shadow: 1px 0px 0 white, 2px 1px 2px var(--light-violet);
 }
@@ -109,7 +168,6 @@ body h2 {
     100% {opacity: 0.94}
 }
 
-
 .menu-col-head {
     position: fixed;
     background-color: rgb(251, 245, 237);
@@ -125,9 +183,6 @@ body h2 {
     justify-content: center;
 }
 
-.backbtn {
-    display: none;
-}
 
 .myBtnContainer {
     width: 50vw;
@@ -141,9 +196,7 @@ body h2 {
 .myBtnContainer a {
     text-decoration: none;
 }
-#btn-back-home {
-    display: none;
-}
+
 .btn {
     border: none;
     outline: none;
@@ -295,10 +348,30 @@ height: 30px;
         top: 30%;
         max-width: 60vw;
     }
+    #btn-back-home  {
+        margin-left: 6%;
+    }
+    #btn-nav-bar  {
+        margin-right: 6%;
+    }
 } 
+@media (max-width: 1200px) {
+    #btn-back-home  {
+        margin-left: 11%;
+    }
+    #btn-nav-bar  {
+        margin-right: 11%;
+    }
+}
 
 @media (max-width: 1050px) {
-    
+    #btn-back-home  {
+        margin-left: 11%;
+    }
+    #btn-nav-bar  {
+        margin-right: 11%;
+    }
+
     .menu-col-small {
         width: 60vw;
     }
@@ -333,7 +406,22 @@ height: 30px;
     }
 }  
 
+@media (max-width: 950px) {
+    #btn-back-home  {
+        margin-left: 15%;
+    }
+    #btn-nav-bar  {
+        margin-right: 15%;
+    }
+}
+
 @media screen and (max-width: 850px){
+    #btn-back-home  {
+        margin-left: 10%;
+    }
+    #btn-nav-bar  {
+        margin-right: 10%;
+    }
     .menu-column {
         width: 90vw;
     }
@@ -353,6 +441,14 @@ height: 30px;
 }
 
 @media (max-width: 770px) {
+    #btn-back-home  {
+        margin-left: 7%;
+        font-size: 25px;
+    }
+    #btn-nav-bar  {
+        margin-right: 7%;
+        font-size: 25px;
+    }
     .menu-column {
         width: 90vw;
     }
@@ -371,9 +467,26 @@ height: 30px;
         padding: 5px ;
     }
 }
-
+@media (max-width: 700px) {
+    #btn-back-home  {
+        margin-left: 2%;
+    }
+    #btn-nav-bar  {
+        margin-right: 7%;
+    }
+}
 
 @media (max-width: 640px) {
+    #btn-back-home  {
+        margin-left: 0;
+    }
+
+    #btn-back-home i{
+        margin-left: 0;
+    }
+    #btn-nav-bar  {
+        margin-right: 0;
+    }
     .container {
         padding: 140px 0 0;
     }
@@ -391,10 +504,7 @@ height: 30px;
         top:25%;
         max-width: 88vw;
     }
-    #btn-home {
-        display: none;
-    }
-
+   
     body h1  {
         font-size: 2rem;
         text-shadow: none;
@@ -423,34 +533,8 @@ height: 30px;
     .info-text p {
         font-size: 0.7rem;
     }
-    .myBtnContainer a {
-        font-size: .9rem;
-        text-shadow: none;
-        font-family: 'PT Sans Narrow', sans-serif;
-        color: rgb(14, 14, 85);
-    }
-   
-    #btn-back-home {
-        display: inline;
-        left: 0;
-        position: absolute;
-        font-size: 2.5rem;
-        margin-top: 1.5vh;
-        margin-left: 20px;
-        z-index: 1;
-        text-align: center;
-        color: var(--violet);
-        background-color: transparent;
-    }
-
-    #btn-back-home i {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
     ::-webkit-scrollbar {
         display: none;
     }
-
 }
