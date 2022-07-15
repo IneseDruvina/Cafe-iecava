@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Gruppo&display=swap" rel="stylesheet">
 </head>
 <body class="main-content">
     <section class="section main-page" id="main-page">
@@ -24,13 +26,13 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                         <ul class="controlls">
-                            <li class="control control-active-btn" data-id="header"><a href="#main-page">Sākums</a></li>
-                            <li class="control" data-id="menu"><a href="menu/index.html">Ēdienkarte</a></li>
-                            <li class="control" data-id="header"><a href="#about">Par kafejnīcu</a></li>                          
-                            <li class="control" data-id="reserv-section"><a href="#reservations">Rezervācijas</a></li>
-                            <li class="control" data-id="spec-section"><a href="#specials">Pasūtījumi</a></li>
-                            <li class="control" data-id="news-section"><a href="#news">Aktuāli</a></li>
-                            <li class="control" data-id="contacts"><a href="#contacts">Kontakti</a></li>
+                            <li class="control control-active-btn" onclick="hideMenu()" data-id="header"><a href="#main-page">Sākums</a></li>
+                            <li class="control" onclick="hideMenu()" data-id="menu"><a href="menu/index.html">Ēdienkarte</a></li>
+                            <li class="control" onclick="hideMenu()" data-id="header"><a href="#about">Par kafejnīcu</a></li>                          
+                            <li class="control" onclick="hideMenu()" data-id="reserv-section"><a href="#reservations">Rezervācijas</a></li>
+                            <li class="control" onclick="hideMenu()" data-id="spec-section"><a href="#specials">Pasūtījumi</a></li>
+                            <li class="control" onclick="hideMenu()" data-id="news-section"><a href="#news">Aktuāli</a></li>
+                            <li class="control" onclick="hideMenu()" data-id="contacts"><a href="#contacts">Kontakti</a></li>
                             
                         </ul>
                 </div>
@@ -51,7 +53,27 @@
                     <p class="animate-charter">
                         <span>Mājīga </span>
                         <span>kafejnīca </span>
+                        <span>parkā </span>
+                    </p>
+                </div> 
+            </div>             
+        </div>
+        <div class="main-page-content" id="main-page-conent">
+            <div class="main-img-box">
+                <img src="images/1firstpage/mainsecond (1).jpg" width="1050" height="100">                                                        
+            </div>
+            <div class="main-img-box-phone">
+                <img src="images/1firstpage/mainseconphone.jpg" width="1000" height="1500">                                                        
+            </div>
+            <div class="text-box-second text-box-trans">
+                <h1>Upene</h1>
+                <div class="text-box-text text-box-trans">
+                    <p class="animate-charter">
+                        <span>Mājīga </span>
+                        <span>kafejnīca </span>
                         <span>parkā</span>
+                        <span>visai </span>
+                        <span>ģimenei</span>
                     </p>
                 </div> 
             </div>             
@@ -339,7 +361,6 @@
             </div>
         </div>
     </section>
-
     <section class="section contacts reveal" id="contacts">
         <h3>Mēs atrodamies: Upes iela 9, Iecava, Iecava pilsēta, LV-3913</h3><br>
         <h4>Sazinies ar mums par galdiņu rezervēšanu <br> vai īpašajiem piedāvājumiem: Tālrunis: 22222222</h4>  
@@ -356,7 +377,6 @@
                     <i class="fab fa-twitter"></i>
                 </a>
             </div>
-
         </div>    
     </section>
 
