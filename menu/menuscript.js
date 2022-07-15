@@ -1,3 +1,21 @@
+
+//nav bar menu list hide and show
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-250px";
+}
+
+//nav bar styling
+document.addEventListener("mouseup", function(e) {
+  e.preventDefault();
+    navLinks.style.right = "-250px";
+      }
+)
+
+
 //menu list filter
 const btns = document.querySelectorAll(".btn");
 const storeProduct = document.querySelectorAll(".filterDiv");
@@ -90,3 +108,11 @@ for (i = 0; i < closeBtn.length; i++) {
     )
   })
 }
+
+document.addEventListener("mouseup", function(e) {
+  e.preventDefault();
+    imgCont.forEach((product) => {
+          product.style.display = "none"
+        }
+    )
+})
