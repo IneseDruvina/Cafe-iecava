@@ -605,18 +605,19 @@ nav .fa {
     height: auto;
     object-fit: cover;
 }
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
 .spec-snaps {
     scroll-snap-type: inline mandatory;
     scroll-padding-inline: var(--spacer, 1rem) ;
 }
 .spec-snaps > * {
     scroll-snap-align: start;
-}
-.hover01 figure img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
 }
 .hover01 figure:hover img {
 	-webkit-transform: scale(1.1);
@@ -651,19 +652,6 @@ border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
 background: #616f61; 
-}
-
-@media (max-width: 700px) {
-    .specials-img-row{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 5px;
-    }
-    .spec-col-img {
-        max-width: 90%;
-        margin-bottom: 15px;
-    }
 }
 
 
@@ -936,6 +924,10 @@ time {
     .food-img-box {
         width: 90%;
     }
+    .specials-img-row {
+        gap: 2rem;
+        grid-auto-columns: 27%;
+    }
     .reserv-back-cont {
         width: 90%;
     }
@@ -1013,12 +1005,15 @@ time {
     .nav-links ul li a {
         font-size: .95rem;
     }
-    
     .section-head h2 {
         width: 60%;
     }
     .section-head p {
         max-width: 60%;
+    }
+    .specials-img-row {
+        gap: 2rem;
+        grid-auto-columns: 35%;
     }
 }
 
@@ -1098,17 +1093,6 @@ time {
         height: 40vh;
         margin-top: 10%;
     }
-    .specials-img-col {
-        width: 100%;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-    .specials-img-row {
-        gap: .5rem;
-        grid-auto-columns: 60%;
-    }
     #news-col {
         width: 90%;
     }
@@ -1119,7 +1103,6 @@ time {
         width: 100%;
         display: block;
         margin-bottom: 5%;
-        
     }
     .news-row-text {
         display: block;
@@ -1136,7 +1119,6 @@ time {
     }
     .news-col-img {
         margin-top: 15%;
-
     }
 }
 
@@ -1206,10 +1188,7 @@ time {
     .section-head p {
         max-width: 75%;
     }
-    .specials-img-row {
-        gap: .3rem;
-        grid-auto-columns: 75%;
-    }
+
     .food-img-box {
         height: 40vh;
         width: 90%;
@@ -1236,6 +1215,11 @@ time {
     }
     #food-row-img-one, #food-row-img-three {
         display: none;
+    }
+    .specials-img-row {
+        gap: .7rem;
+        grid-auto-columns: 60%;
+        margin-left: 5%;
     }
 
     .contacts p, h4, h3, .contact-icons {
