@@ -41,6 +41,9 @@ allSections.addEventListener('click', (e) =>{
   }
 })
 
+
+
+
 //transition animation//
 
 const observer = new IntersectionObserver(entries => {
@@ -74,3 +77,4 @@ for(var i = 0; i < reveals.length; i++){
     }
 }
 }
+
