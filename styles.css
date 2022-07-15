@@ -638,20 +638,17 @@ nav .fa {
 
 
 /*---scrollbar styling---*/
-
 ::-webkit-scrollbar {
-    width: 5px;
-    height: 8px;
+    height: 13px;
 }
 ::-webkit-scrollbar-track {
-background: transparent; 
+background: rgb(236, 237, 237);
 }
 ::-webkit-scrollbar-thumb {
-background: #9cab9c; 
-border-radius: 5px;
-}
-::-webkit-scrollbar-thumb:hover {
-background: #616f61; 
+    background: #9cab9c; 
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background: #616f61;
 }
 
 
@@ -891,6 +888,9 @@ time {
     .news-col {
         width: 80%;
     }
+    ::-webkit-scrollbar {
+        height: 11px;
+    }
 }
 
 @media  screen and (max-width: 950px) {
@@ -927,6 +927,9 @@ time {
     .specials-img-row {
         gap: 2rem;
         grid-auto-columns: 27%;
+    }
+    ::-webkit-scrollbar {
+        height: 10px;
     }
     .reserv-back-cont {
         width: 90%;
@@ -1221,6 +1224,9 @@ time {
         grid-auto-columns: 60%;
         margin-left: 5%;
     }
+    ::-webkit-scrollbar {
+        height: 7px;
+    }
 
     .contacts p, h4, h3, .contact-icons {
         max-width: 90%;
@@ -1243,3 +1249,4 @@ time {
 }
 
     
+
